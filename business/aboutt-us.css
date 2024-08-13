@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+   
+}
+
+
+.nav-links a h3{
+    font-size: 20px;
+    font-weight: 400;
+    font: bold;
+    position: relative;
+}
+
+a .before::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    transition: 1s;
+    background-color: #1dcf9f;
+    left: 0;
+    bottom: -7px;
+}
+
+.section-hero{
+    background-image: url(/OPAY/business/banner-c0c076bf.png);
+    background-position: center;
+    background-size: cover;
+    background: #c6d4d0;
+    position: relative;
+}
+.section-hero img{
+    width: 400px;
+}
+
+footer{
+    background: #210f60;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 180px;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.footer-header h3{
+    font-size:20px ;
+    color: #ffffff;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-header{
+    display: flex;
+   gap: 190px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction:column ;
+
+}
+
+.footer-img{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-img img{
+    width: 20px;
+}

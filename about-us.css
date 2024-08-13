@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+display: flex;
+gap: 50px;
+/* margin-top: 20px; */
+align-items: center;
+padding:10px 96px;
+position: sticky;
+top: 0;
+z-index: 3;
+background-color: #ffffff;
+}
+
+.nav-links{
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    /* margin-left: 350px; */
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #071435;
+    font-family: Graphik, sans-serif;
+
+}
+
+.Personal{
+    color:#1fc69d !important;
+    font-family: Graphik, sans-serif;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.navlinks a span img{
+    width: 10px;
+}
+
+.Company{
+    display: inline-flex;
+    align-items: center;
+}
+
+.drop-down{
+    position: relative;
+    display: inline-block;
+}
+
+.drop-down-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+}
+
+.drop-down-content li{
+    color:#34495e;
+    font-size: 12px;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+
+.drop-down-content li:hover {
+    background-color: #ccdad1;
+    color: #1fc69d;
+}
+
+.drop-down:hover .drop-down-content {
+    display: block;
+}
+
+.drop-down:hover .drop-down a {
+    background-color: #3e8e41;
+}
+
+.Company img{
+    width: 30px;
+}
+
+.hero-section{
+    background: linear-gradient(rgb(0, 0, 1, 0.564), rgba(39, 0, 1, 0.564)), url(/OPAY/about-us-bg.png) ;
+    opacity: 10px;
+    background-size: cover;
+    width: 100%;
+    height: 440px;
+    padding: 40px 40px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-subtext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero-subtext h2{
+    font-size:40px ;
+    color: #ffffff;
+}
+
+.hero-subtext p{
+    color: #ffffff;
+    font-size: 17px;
+    width: 820px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.who-we-are{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding: 63px 137px;
+    align-items: center;
+    gap: 60px;
+}
+
+footer{
+    background: #1fc69d;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding:0px 60px ;
+    /* margin-top: 30px; */
+    height: 470px;
+    gap: 40px;
+    background-image: url(/OPAY/foot-bc-f91ce7ec808277a16cc19411a6217db3.png);
+    background-size: cover;
+    background-position: center;
+     background-attachment: fixed;
+    
+}
+
+.footer-elements ul{
+    list-style: none;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-elements h3{
+    font-size: 12px;
+}
+
+
+.footer-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.footer-elements-right span{
+    font-size: 10px;
+    display: flex;
+}
+
+.footer-elements-right h3{
+margin-bottom: 10px;
+font-size: 12px;
+}
+
+.footer-elements-right{
+    /* line-height: 10px; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+
+    /* align-items: center; */
+}
+
+.footer-elements-right p{
+    font-size: 10px;
+    /* margin-bottom: 10px; */
+    /* align-items: baseline; */
+
+}
+.footer-bottom{
+    background-color: #d2f5ec;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 50px;
+    align-items: center;
+}
+
+.footer-bottom svg{
+    width: 100px;
+}
+
+.footer-bottom span{
+    font-size: 13px;
+}

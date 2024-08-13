@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head{
+h1 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; } h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal;} p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-style: normal; font-variant: normal;} blockquote { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal;} pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal;}
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.nav-links a h3{
+    font-size: 20px;
+    font-weight: 400;
+    font: bold;
+    position: relative;
+}
+
+a .before::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    transition: 1s;
+    background-color: #1dcf9f;
+    left: 0;
+    bottom: -7px;
+}
+
+.hero-section{
+    background: #eff1ee;
+    padding: 129px 0px 93px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.hero-left{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+.hero-left h1{
+    font-size: 50px;
+    color: #210f60;
+    font-weight: 900;
+    line-height: 55px;
+    width: 500px;
+     font-family: "Helvetica Neue", Helvetia, Arial, sans-serif; font-style: normal; font-variant: normal;
+}
+
+.hero-left p{
+    font-size: 17px;
+    color: #210f60;
+    line-height: 20px;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal;
+}
+
+.hero-left button{
+    color: #ffffff;
+    background: #1dcf9f;
+    font-size: 30px;
+    height:4rem;
+    width:15rem;
+    font-weight: 900;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+}
+
+.line{
+    background-color: #210f60;
+    width: 20px;
+    height: 1px;
+    transform: rotate(90deg);
+    margin-top: 10px;
+}
+
+.hero-right img{
+    /* width: 300px; */
+    height: 300px;
+    width: 600px;
+    flex-shrink: 0;
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding: 140px 190px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.grid-box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.grid-box img{
+    width: 500px;
+}
+
+.grid-box h1{
+    color: #210f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   fill: #210f60;
+}
+
+.grid-box p{
+    color: #575757;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.trusted-by{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    /* justify-content: center; */
+}
+
+.trusted-by h1{
+    font-size:60px ;
+    color: #210f60;
+    font-weight: 700;
+    line-height:normal;
+    width: 900px;  
+    text-align: center;
+}
+
+
+
+.flex-img{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 80px;
+    row-gap: 20px;
+}
+
+.flex-img img{
+    width: 100px;
+    align-items:center;
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 230px 190px;
+}
+
+.testimonials-card{
+    background: #f8f8fa;
+    padding: 7px 26px;
+}
+
+.testimonials-card p{
+    width: 300px;
+    font-size: 10px;
+    font-weight: 300;
+    color:#000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    line-height:normal;
+    /* padding: 30px; */
+    /* text-align: start; */
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.cards h3{
+    color:#210f60;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards img{
+    width: 50px;
+}
+
+.join-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px 381px;
+}
+
+.join-us h1{
+    color: #210f60;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  width: 700px;
+}
+
+button span img{
+    width: 55px;
+}
+
+.join-us button{
+    height: 80px;
+    width: 490px;
+    background: #1dcf9f;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    gap: 10px;
+    font-style: normal;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    margin-top: 72px;
+    position: relative;
+}
+
+#pop-up{
+    width: 700px;
+    height: 250px;
+    background:#ffffff;
+    border-radius: 20px;
+    display: none; 
+    position: absolute; 
+    /* top: 100px; */
+    z-index: 1; 
+    left: 0;
+    top: -50px;
+    /* width: 100%; 
+    height: 100%;  */
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#pop-up-content{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    position: relative;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+ .close {
+    /* color: #aaa;
+    float: right;
+    font-size: 28px; */
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.input input{
+    width: 400px;
+    padding:0 70px;
+    height: 60px;
+    background:#f9f8f8;
+    font-size: 14px;
+    color: #210f60;
+    border-radius: 10px;
+    border: none;
+}
+
+.img-mail{
+    position: absolute;
+    top: 110px;
+    left: 180px;
+}
+
+.img-tel{
+    position: absolute;
+    top: 188px;
+    left: 180px;
+}
+
+footer{
+    background: #210f60;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 180px;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.footer-header h3{
+    font-size:20px ;
+    color: #ffffff;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-header{
+    display: flex;
+   gap: 190px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction:column ;
+
+}
+
+.footer-img{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-img img{
+    width: 20px;
+}
+
+
